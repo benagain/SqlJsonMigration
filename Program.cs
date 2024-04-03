@@ -15,4 +15,7 @@ if (existing.Count == 0)
 }
 else
 {
+    Console.WriteLine($"Set new property");
+    existing.First().Json.NewProperty = "world";
+    await context.SaveChangesAsync();
 }

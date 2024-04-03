@@ -28,4 +28,5 @@ public class TheJsonDocument
 {
     public required string Property1 { get; init; }
     public required int Property2 { get; set; }
+    public string? NewProperty { get; set; }
 }
